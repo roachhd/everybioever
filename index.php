@@ -27,7 +27,7 @@
 					<a href="https://plus.google.com/share?url=http://everbioever.com/"><img src="images/googleplus.svg" alt=""></a>
 				</div>
 
-				<p class="colophon">a thing by <a href="http://galengidman.com/">Galen Gidman</a> and <a href="http://github.com/galengidman/everybioever/contributors">friends</a><br><a href="http://github.com/galengidman/everybioever">add your own</a></p>
+				<p class="colophon">a thing by <a href="http://galengidman.com/">Galen Gidman</a> and <a href="http://github.com/galengidman/everybioever/contributors">friends</a><br><a href="https://github.com/galengidman/everybioever#how-to-add-a-bio">add your own</a></p>
 			</div>
 		</div>
 
