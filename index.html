@@ -1,5 +1,3 @@
-<?php $bios = file('bios.txt', FILE_IGNORE_NEW_LINES); ?>
-
 <!DOCTYPE html>
 <html>
 	<head>
@@ -33,31 +31,20 @@
 
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
-		<script>
-			$(function() {
-				function pickBio() {
-					$('#bio').text(bios[Math.floor(Math.random() * bios.length)]);
-				};
+	document.getElementById('reload').onchange = function(){
 
-				pickBio();
+  var file = this.files[0];
 
-				$('#reload').click(function() {
-					pickBio();
-				});
+  var reader = new FileReader();
+  reader.onload = function(progressEvent){
 
-			});
-
-			var bios = [<?php
-				$counter = 1;
-
-				foreach ($bios as $bio) {
-					if ($counter != 1) echo ', ';
-
-					echo '"' . $bio . '"';
-
-					$counter++;
-				}
-			?>]
-		</script>
+    // By lines
+    var lines = this.result.split('\n');
+    for(var line = 0; line < lines.length; line++){
+      console.log(lines[line]);
+    }
+  };
+  reader.readAsText(file);
+};
 	</body>
 </html>
