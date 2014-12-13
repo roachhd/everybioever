@@ -13,7 +13,7 @@
 			<div class="container">
 				<h1>Got no Life</h1>
 				<blockquote id="bio">Hit reload to generate a great new life for your bio.</blockquote>
-				<button id="reload" class="reload">Reload</button>
+				<button type="file" name="file" id="file" class="reload">Reload</button>
 			</div>
 		</div>
 
@@ -31,7 +31,7 @@
 
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script>
-	document.getElementById('reload').onchange = function(){
+	document.getElementById('file').onchange = function(){
 
   var file = this.files[0];
 
