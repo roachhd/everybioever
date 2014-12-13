@@ -27,7 +27,7 @@
 					<a href="https://plus.google.com/share?url=http://katieball.me/no-life"><img src="images/googleplus.svg" alt=""></a>
 				</div>
 
-				<p class="colophon">Revamped with ❤️ <a href="http://katieball.com/">Katie Ball</a>Forked from <http://github/everybioever">every bio ever</a></p>
+				<p class="colophon">Revamped with ❤️ <a href="http://katieball.com/">Katie Ball</a>Forked from <a href="http://github/everybioever">every bio ever</a></p>
 			</div>
 		</div>
 
